@@ -6,14 +6,12 @@ function generate(irreducible_poly){
         return;
     }
 
-    // Calculate Multiplicative Inverse
     let t = new Uint32Array(256);
     for (let i = 0, x = 1; i < 256; i ++) {
         t[i] = x;
         x ^= (x << 1) ^ ((x >>> 7) * p);
     }
 
-    // Generate Sbox with Affine transformation
     let Sbox = new Uint32Array(256);
     Sbox[0] = 0x63;
     for (let i = 0; i < 255; i ++) {
