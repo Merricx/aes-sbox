@@ -1,4 +1,3 @@
-# dynamic-aes-sbox
 Generate AES S-Box from given Irreducible Polynomial
 
 ## Tugas Kriptografi kelompok 3
