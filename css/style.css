@@ -1,0 +1,19 @@
+table {
+    width: 100%;
+}
+
+table tr td, table tr th {
+    width: 28px;
+    height: 28px;
+}
+
+table th {
+    text-align: center;
+    background: #eaecf0;
+    border: 1px solid #a2a9b1;
+}
+
+table td {
+    text-align: center;
+    border: 1px solid #a2a9b1;
+}
