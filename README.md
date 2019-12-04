@@ -4,3 +4,4 @@ Generate AES S-Box from given Irreducible Polynomial
 
 Anggota
 -   Imam Udin Abdisalam A.
+-   Muhamad Biki Hamzah
